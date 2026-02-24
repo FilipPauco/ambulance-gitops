@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: fpauco-ambulance-ufe-content
+spec:
+  microFrontend: fpauco-ambulance-ufe
+  element: fpauco-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?fpauco-ambulance-wl(/.*)?$"
