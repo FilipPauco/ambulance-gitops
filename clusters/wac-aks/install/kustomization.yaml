@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/fpauco-ambulance-ufe
+- ../../../apps/fpauco-ambulance-webapi
 
 
 components:
