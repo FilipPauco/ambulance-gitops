@@ -10,10 +10,11 @@ labels:
 resources:
 - ../../../apps/fpauco-ambulance-ufe
 - ../../../apps/fpauco-ambulance-webapi
+- ../../../apps/mongo-express
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
 
-components: 
+components:
 - ../../../components/version-developers
 - https://github.com/FilipPauco/ambulance-webapi//deployments/kustomize/components/mongodb

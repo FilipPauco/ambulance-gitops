@@ -1,12 +1,12 @@
 apiVersion: wac-fiit.github.io/v1alpha1
 kind: Project
 metadata:
-  name: fpauco-ambulance-wl
+  name: fpauco-ambulance-wl # napr. <pfx>-ambulance-wl
 spec:
-  title: "Zoznam čakajúcich fpauco"
-  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
-  authors: "Filip Pauco"
-  azureLink: "https://fpauco.azurewebsites.net"
+  title: "Zoznam čakajúcich fpauco" # napr. "Zoznam čakajúcich <pfx>"
+  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii" # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Filip Pauco" # Zadajte mená autorov
+  azureLink: "https://fpauco-ambulance-ufe-eccrcrf9cge5fkeb.westeurope-01.azurewebsites.net"
   frontendRepoUrl: "https://github.com/FilipPauco/ambulance-ufe"
   backendRepoUrl: "https://github.com/FilipPauco/ambulance-webapi"
   gitopsRepoUrl: "https://github.com/FilipPauco/ambulance-gitops"

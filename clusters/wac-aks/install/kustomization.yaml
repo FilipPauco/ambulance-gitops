@@ -7,11 +7,8 @@ labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: fpauco-ambulance-wl
-  includeSelectors: true
-  includeTemplates: true
-- pairs:
     wac-fiit.github.io/project: fpauco-ambulance-wl
-  includeSelectors: false
+  includeSelectors: true
   includeTemplates: true
 
 resources:
