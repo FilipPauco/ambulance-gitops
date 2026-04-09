@@ -6,4 +6,4 @@ images:
   newTag: main.20260407.1050 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
 - name: fipaaa/ambulance-ufe
   newName: fipaaa/ambulance-ufe # {"$imagepolicy": "wac-hospital:ambulance-ufe:name"}
-  newTag: main.20260407.1050 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+  newTag: main.20260407.1404 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
