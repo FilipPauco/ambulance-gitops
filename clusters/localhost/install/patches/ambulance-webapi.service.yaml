@@ -1,7 +1,7 @@
-kind: Service
+﻿kind: Service
 apiVersion: v1
 metadata:
-  name: fpauco-ambulance-webapi
+  name: xpaucof-ambulance-webapi
 spec:
   type: NodePort
   ports:

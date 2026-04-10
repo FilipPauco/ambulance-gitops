@@ -1,7 +1,7 @@
-apiVersion: apps/v1
+﻿apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fpauco-ambulance-webapi
+  name: xpaucof-ambulance-webapi
 spec:
   template:
     spec:
@@ -9,6 +9,6 @@ spec:
         - name: openapi-ui
           env:
             - name: URL
-              value: /fpauco-openapi
+              value: /xpaucof-openapi
             - name: BASE_URL
-              value: /fpauco-openapi-ui
+              value: /xpaucof-openapi-ui

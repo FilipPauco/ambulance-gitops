@@ -1,0 +1,18 @@
+﻿apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: xpaucof-ambulance-ufe-content
+spec:
+  microFrontend: xpaucof-ambulance-ufe
+  element: xpaucof-ambulance-wl-app
+  attributes:
+    - name: api-base
+      value: /xpaucof-api
+    - name: ambulance-id
+      value: bobulova
+    - name: base-path
+      value: /xpaucof-ambulance-wl/
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?xpaucof-ambulance-wl(/.*)?$"

@@ -1,10 +1,10 @@
-kind: Service
+﻿kind: Service
 apiVersion: v1
 metadata:
-  name: fpauco-openapi-ui
+  name: xpaucof-openapi-ui
 spec:
   selector:
-    pod: fpauco-ambulance-webapi-label
+    pod: xpaucof-ambulance-webapi-label
   ports:
   - name: http
     protocol: TCP
