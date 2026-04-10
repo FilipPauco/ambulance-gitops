@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: fipaaa/ambulance-ufe
   newName: fipaaa/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
-  newTag: main.20260407.1506 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+  newTag: main.20260410.0520 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
 - name: fipaaa/ambulance-wl-webapi
   newName: fipaaa/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
   newTag: main.20260410.0521 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
